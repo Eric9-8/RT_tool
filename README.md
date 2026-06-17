@@ -1,5 +1,7 @@
 # GS3D Map Alignment Editor
 
+RT_tool 用于调试 `gs3d.json` 的 RT 矩阵，通过可视化地图和 GS 点云来评估 aiSim 中的对齐情况。
+
 一个面向局域网共享的地图基准 GS3D 对齐工具。它会直接读取地图/GS3D 工作区目录，解析其中的 `GeoPackage/*.gpkg`、`gs3d.json`，并在存在 `map.json + Meshes/*.gltf` 时额外显示地图网格层；没有 `map.json` 时会进入轻量语义模式，只显示 GPKG 语义层、GS 点云和坐标系参考，并导出回标准 `gs3d.json`。
 
 ## 目录
