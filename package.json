@@ -1,0 +1,15 @@
+{
+  "name": "gs3d-web-editor",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "bash scripts/dev.sh",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "test": "npm --prefix frontend run test",
+    "typecheck": "npm --prefix frontend run typecheck",
+    "install:frontend": "npm --prefix frontend install",
+    "dev:backend": ".venv/bin/python RT_tool.py"
+  }
+}
